@@ -1,0 +1,2 @@
+void testFunctionTemplate();
+void autoKeyword();
