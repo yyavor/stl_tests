@@ -22,6 +22,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	autoKeyword();
 	testFunctionTemplate();
 	testFunctionTemplateMult();
+	initializerListTest();
 
 	char a[] = "";
 	cin >> a;
