@@ -23,6 +23,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	testFunctionTemplate();
 	testFunctionTemplateMult();
 	initializerListTest();
+	testFuncPoinersAndCallbacks();
+	testClassesETC();
 
 	char a[] = "";
 	cin >> a;
