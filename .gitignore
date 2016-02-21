@@ -46,3 +46,15 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.opensdf
+*.pch
+stl_tests/Debug/stl_tests.obj
+*.pch
+stl_tests/Debug/stl_tests.tlog/cl.command.1.tlog
+*.tlog
+stl_tests/Debug/stl_tests.tlog/CL.write.1.tlog
+*.tlog
+*.lastbuildstate
+stl_tests/Debug/vc140.idb
+*.filters
+stl_tests/stl_tests.vcxproj
+*.pdb
