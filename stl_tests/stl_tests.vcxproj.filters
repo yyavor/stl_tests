@@ -44,5 +44,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FuncPointersAndCallbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesETC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
