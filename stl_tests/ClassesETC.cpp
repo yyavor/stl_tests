@@ -3,31 +3,41 @@
 #include "genericHeader.h"
 
 
-SomeFirstTestClass::SomeFirstTestClass()
+FirstParentClass::FirstParentClass()
 {
+	cout << "FirstParentClass initialize " << endl;
 }
 
-SomeFirstTestClass::~SomeFirstTestClass()
-{
-}
-
-void SomeFirstTestClass::SetValues()
+void FirstParentClass::SetValues()
 {
 	m_iSomeVal = 1;
 	m_iSomeVal2 = 2;
 }
 
-void SomeFirstTestClass::PrintValues()
+void FirstParentClass::PrintValues()
 {
-	cout << "\nSomeFirstTestClass::PrintValues" << endl;
+	cout << "\FirstParentClass::PrintValues" << endl;
 	cout << "m_iSomeVal: " << m_iSomeVal << endl;
 	cout << "m_iSomeVal2: " << m_iSomeVal2 << endl;
 }
 
+//---------------------------------------------------------------
+ClassSecondParent::ClassSecondParent()
+{
+	cout << "ClassSecondParent initialize " << endl;
+}
+
+ClassChild::ClassChild()
+{
+	cout << "ClassChild initialize " << endl;
+}
+//---------------------------------------------------------------
+
 void testClassesETC()
 {
 	cout << "\n//testClassesETC" << endl;
-	SomeFirstTestClass firstTestClass = SomeFirstTestClass();
+	FirstParentClass firstTestClass = FirstParentClass();
 	firstTestClass.SetValues();
 	firstTestClass.PrintValues();
+	ClassChild childObj = ClassChild();
 }

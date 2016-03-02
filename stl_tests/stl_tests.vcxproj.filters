@@ -27,6 +27,15 @@
     <ClInclude Include="genericHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ClassesETC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overloading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtualization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -48,6 +57,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ClassesETC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overloading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Virtualization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

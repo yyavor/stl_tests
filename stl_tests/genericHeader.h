@@ -5,3 +5,5 @@ void constexprTest();
 void initializerListTest();
 void testFuncPoinersAndCallbacks();
 void testClassesETC();
+void testOverloading();
+void testVirtualization();

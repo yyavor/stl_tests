@@ -25,6 +25,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	initializerListTest();
 	testFuncPoinersAndCallbacks();
 	testClassesETC();
+	testOverloading();
+	testVirtualization();
 
 	char a[] = "";
 	cin >> a;
