@@ -29,6 +29,10 @@ public:
 	{
 		cout << "Cat int constructor" << value << endl;
 	}
+	virtual void makeVoice()
+	{
+		cout << "Voice" << value << endl;
+	}
 private:
 	int value = 7;
 };
@@ -39,7 +43,7 @@ public:
 	{
 		cout << "Tiger constructor" << endl;
 	}
-	explicit Tiger(int new_value) : value(new_value) 
+	Tiger(int new_value) : value(new_value) 
 	{
 		cout << "Tiger int constructor" << value << endl;
 	}
