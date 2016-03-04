@@ -41,4 +41,4 @@ void testClassesETC()
 	firstTestClass.PrintValues();
 	ClassChild childObj = ClassChild();
 }
-//============issue53=============
+//============issue54issue53=============
